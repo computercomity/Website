@@ -6,7 +6,7 @@
                 <div class="col-md-12">
                     <h2>Computer @nd Comity</h2>
                     <p>We focus on Information Technology, share computer science knowledge, provide IT services.</br> We are in CUHK(SZ). </p>
-                    <a href="#" class="large-button white-color"> JOIN US ! <i class="icon-button fa fa-bars"></i></a>
+                    <a href="#" class="large-button white-color"> Site UNDER Construction! <i class="icon-button fa fa-bars"></i></a>
                 </div> <!-- /.col-md-12 -->
             </div> <!-- /.row -->
         </div> <!-- /.container -->
