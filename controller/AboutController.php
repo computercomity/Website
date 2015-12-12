@@ -1,7 +1,7 @@
 <?php
 namespace Lazyphp\Controller;
 
-class LazyphpController
+class AboutController
 {
 	public function __construct()
     {
@@ -12,10 +12,34 @@ class LazyphpController
     /**
      * 默认提示
      * @ApiDescription(section="Demo", description="默认提示")
-     * @ApiLazyRoute(uri="/",method="GET")
+     * @ApiLazyRoute(uri="/about/",method="GET")
      * @ApiReturn(type="object", sample="{'code': 0,'message': 'success'}")
      */
     public function index()
+    {
+        $data['title'] = $data['top_title'] = 'Version 4.5';
+        return send_result( $data );
+    }
+
+    /**
+     * 默认提示
+     * @ApiDescription(section="Demo", description="默认提示")
+     * @ApiLazyRoute(uri="/about/",method="GET")
+     * @ApiReturn(type="object", sample="{'code': 0,'message': 'success'}")
+     */
+    public function about()
+    {
+        $data['title'] = $data['top_title'] = 'Version 4.5';
+        return send_result( $data );
+    }
+
+    /**
+     * 默认提示
+     * @ApiDescription(section="Demo", description="默认提示")
+     * @ApiLazyRoute(uri="/about/",method="GET")
+     * @ApiReturn(type="object", sample="{'code': 0,'message': 'success'}")
+     */
+    public function team()
     {
         $data['title'] = $data['top_title'] = 'Version 4.5';
         return send_result( $data );
