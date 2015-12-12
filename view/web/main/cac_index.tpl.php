@@ -120,13 +120,13 @@
                             <h3 class="portfolio-title"><a href="project-slideshow.html">Link to activitiy page</a></h3>
                         </div>
                         <div class="portfolio-expand">
-                            <a class="fancybox" href="images/includes/activitiespic/act1.png" title="act1">
+                            <a class="fancybox" href="/assets/images/includes/activitiespic/act1.png" title="act1">
                                 <i class="fa fa-expand"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <img src="images/includes/activitiespic/act1.png" alt="activity pic">
+                <img src="/assets/images/includes/activitiespic/act1.png" alt="activity pic">
             </div>
         </div> <!-- /.item -->
         <div class="item">
@@ -138,13 +138,13 @@
                             <h3 class="portfolio-title"><a href="project-slideshow.html">Link to activitiy page</a></h3>
                         </div>
                         <div class="portfolio-expand">
-                            <a class="fancybox" href="images/includes/activitiespic/act2.png" title="act2">
+                            <a class="fancybox" href="/assets/images/includes/activitiespic/act2.png" title="act2">
                                 <i class="fa fa-expand"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <img src="images/includes/activitiespic/act2.png" alt="activity pic">
+                <img src="/assets/images/includes/activitiespic/act2.png" alt="activity pic">
             </div>
         </div> <!-- /.item -->
         <div class="item">
@@ -156,13 +156,13 @@
                             <h3 class="portfolio-title"><a href="project-slideshow.html">Link to activitiy page</a></h3>
                         </div>
                         <div class="portfolio-expand">
-                            <a class="fancybox" href="images/includes/activitiespic/act3.png" title="act3">
+                            <a class="fancybox" href="/assets/images/includes/activitiespic/act3.png" title="act3">
                                 <i class="fa fa-expand"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <img src="images/includes/activitiespic/act3.png" alt="activity pic">
+                <img src="/assets/images/includes/activitiespic/act3.png" alt="activity pic">
             </div>
         </div> <!-- /.item -->
         <div class="item">
@@ -174,13 +174,13 @@
                             <h3 class="portfolio-title"><a href="project-slideshow.html">Link to activitiy page</a></h3>
                         </div>
                         <div class="portfolio-expand">
-                            <a class="fancybox" href="images/includes/activitiespic/act4.png" title="act4">
+                            <a class="fancybox" href="/assets/images/includes/activitiespic/act4.png" title="act4">
                                 <i class="fa fa-expand"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <img src="images/includes/activitiespic/act4.png" alt="activity pic">
+                <img src="/assets/images/includes/activitiespic/act4.png" alt="activity pic">
             </div>
         </div> <!-- /.item -->
         <div class="item">
@@ -192,13 +192,13 @@
                             <h3 class="portfolio-title"><a href="project-slideshow.html">Link to activitiy page</a></h3>
                         </div>
                         <div class="portfolio-expand">
-                            <a class="fancybox" href="images/includes/activitiespic/act5.png" title="act5">
+                            <a class="fancybox" href="/assets/images/includes/activitiespic/act5.png" title="act5">
                                 <i class="fa fa-expand"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <img src="images/includes/activitiespic/act5.png" alt="activity pic">
+                <img src="/assets/images/includes/activitiespic/act5.png" alt="activity pic">
             </div>
         </div> <!-- /.item -->
         <div class="item">
@@ -210,13 +210,13 @@
                             <h3 class="portfolio-title"><a href="project-slideshow.html">Link to activitiy page</a></h3>
                         </div>
                         <div class="portfolio-expand">
-                            <a class="fancybox" href="images/includes/activitiespic/act6.png" title="act6">
+                            <a class="fancybox" href="/assets/images/includes/activitiespic/act6.png" title="act6">
                                 <i class="fa fa-expand"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <img src="images/includes/activitiespic/act6.png" alt="activity pic">
+                <img src="/assets/images/includes/activitiespic/act6.png" alt="activity pic">
             </div>
         </div> <!-- /.item -->
         <div class="item">
@@ -228,13 +228,13 @@
                             <h3 class="portfolio-title"><a href="project-slideshow.html">Link to activitiy page</a></h3>
                         </div>
                         <div class="portfolio-expand">
-                            <a class="fancybox" href="images/includes/activitiespic/act7.png" title="act7">
+                            <a class="fancybox" href="/assets/images/includes/activitiespic/act7.png" title="act7">
                                 <i class="fa fa-expand"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <img src="images/includes/activitiespic/act7.png" alt="activity pic">
+                <img src="/assets/images/includes/activitiespic/act7.png" alt="activity pic">
             </div>
         </div> <!-- /.item -->
     </div> <!-- /#owl-demo -->
@@ -289,7 +289,7 @@
                 <div class="col-md-4 col-sm-4">
                     <div class="team-member">
                         <div class="thumb-post">
-                            <img src="images/includes/homepagepic/teacher1.png" alt="teacher pic">
+                            <img src="/assets/images/includes/homepagepic/teacher1.png" alt="teacher pic">
                             <span class="member-role">Computer And Comity Something//</span>
                         </div>
                         <div class="member-content">
@@ -302,7 +302,7 @@
                 <div class="col-md-4 col-sm-4">
                     <div class="team-member">
                         <div class="thumb-post">
-                            <img src="images/includes/homepagepic/teacher2.png" alt="teacher pic">
+                            <img src="/assets/images/includes/homepagepic/teacher2.png" alt="teacher pic">
                             <span class="member-role">Computer And Comity Something//</span>
                         </div>
                         <div class="member-content">
@@ -315,7 +315,7 @@
                 <div class="col-md-4 col-sm-4">
                     <div class="team-member">
                         <div class="thumb-post">
-                            <img src="images/includes/homepagepic/teacher3.png" alt="teacher pic">
+                            <img src="/assets/images/includes/homepagepic/teacher3.png" alt="teacher pic">
                             <span class="member-role">Computer And Comity Something//</span>
                         </div>
                         <div class="member-content">
@@ -348,7 +348,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="blog-post clearfix">
                         <div class="thumb-post">
-                            <a href="blog-single.html"><img src="images/includes/homepagepic/sphere1.png" alt="" class="sphere pic"></a>
+                            <a href="blog-single.html"><img src="/assets/images/includes/homepagepic/sphere1.png" alt="" class="sphere pic"></a>
                         </div>
                         <div class="blog-post-content">
                             <h4 class="post-title"><a href="blog-single.html">Computer And Comity Something//Computer And Comity Something//</a></h4>
@@ -360,7 +360,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="blog-post clearfix">
                         <div class="thumb-post">
-                            <a href="blog-single.html"><img src="images/includes/homepagepic/sphere2.png" alt="" class="sphere pic"></a>
+                            <a href="blog-single.html"><img src="/assets/images/includes/homepagepic/sphere2.png" alt="" class="sphere pic"></a>
                         </div>
                         <div class="blog-post-content">
                             <h4 class="post-title"><a href="blog-single.html">Computer And Comity Something//Computer And Comity Something//</a></h4>
@@ -372,7 +372,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="blog-post clearfix">
                         <div class="thumb-post">
-                            <a href="blog-single.html"><img src="images/includes/homepagepic/sphere3.png" alt="" class="sphere pic"></a>
+                            <a href="blog-single.html"><img src="/assets/images/includes/homepagepic/sphere3.png" alt="" class="sphere pic"></a>
                         </div>
                         <div class="blog-post-content">
                             <h4 class="post-title"><a href="blog-single.html">Computer And Comity Something//Computer And Comity Something//</a></h4>
