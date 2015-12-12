@@ -60,7 +60,7 @@
 
 /* mouse grab icon */
 .grabbing {
-  cursor: url(../images/grabbing.png) 8 8, move;
+  cursor: url(/assets/images/grabbing.png) 8 8, move;
 }
 
 /* fix */
@@ -154,7 +154,7 @@
 /* preloading images */
 .owl-item.loading {
   min-height: 150px;
-  background: url(../images/AjaxLoader.gif) no-repeat center center;
+  background: url(/assets/images/AjaxLoader.gif) no-repeat center center;
 }
 
 /* 
@@ -599,7 +599,7 @@
 }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-  background-image: url("../images/fancybox_sprite.png");
+  background-image: url("/assets/images/fancybox_sprite.png");
 }
 
 #fancybox-loading {
@@ -617,7 +617,7 @@
 #fancybox-loading div {
   width: 44px;
   height: 44px;
-  background: url("../images/fancybox_loading.gif") center center no-repeat;
+  background: url("/assets/images/fancybox_loading.gif") center center no-repeat;
 }
 
 .fancybox-close {
@@ -637,7 +637,7 @@
   height: 100%;
   cursor: pointer;
   text-decoration: none;
-  background: transparent url("../images/blank.gif");
+  background: transparent url("/assets/images/blank.gif");
   /* helps IE */
   -webkit-tap-highlight-color: transparent;
   z-index: 99999;
@@ -779,13 +779,13 @@
 /*Retina graphics!*/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-    background-image: url("../images/fancybox_sprite@2x.png");
+    background-image: url("/assets/images/fancybox_sprite@2x.png");
     background-size: 44px 152px;
     /*The size of the normal image, half the size of the hi-res image*/
   }
 
   #fancybox-loading div {
-    background-image: url("../images/fancybox_loading@2x.gif");
+    background-image: url("/assets/images/fancybox_loading@2x.gif");
     background-size: 24px 24px;
     /*The size of the normal image, half the size of the hi-res image*/
   }
@@ -822,8 +822,8 @@
 /* Font-face Icons */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../fonts/fontawesome-webfont.eot");
-  src: url("../fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff") format("woff"), url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
+  src: url("/assets/fonts/fontawesome-webfont.eot");
+  src: url("/assets/fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/fontawesome-webfont.woff") format("woff"), url("/assets/fonts/fontawesome-webfont.ttf") format("truetype"), url("/assets/fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
   font-weight: normal;
   font-style: normal;
 }
