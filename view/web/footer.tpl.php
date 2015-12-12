@@ -24,7 +24,7 @@
             </div> <!-- /.col-md- -->
         </div> <!-- /.column -->
     </div> <!-- /.container -->
-</footer> <!-- /.site-footer -->
+</footer> <!-- /.site-footer -->w
 
 <script src="/assets/js/min/plugins.min.js"></script>
 <script src="/assets/js/min/medigo-custom.min.js"></script>

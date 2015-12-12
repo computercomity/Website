@@ -49,7 +49,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="pull-left logo"><a href="ComputerComity.html"> <img src="images/logo-head.png"
+                <div class="pull-left logo"><a href="/"> <img src="/assets/images/logo-head.png"
                                                                                 alt="Computer And Comity logo"> </a>
                 </div>    <!-- /.logo -->
                 <div class="main-navigation pull-right">

@@ -17,7 +17,7 @@
     <div class="row project-single">
         <div class="col-md-8">
             <div class="project-img">
-                <img src="images/includes/aboutus/caclogo.png" alt="About Us pic">
+                <img src="/assets/images/includes/aboutus/caclogo.png" alt="About Us pic">
             </div> <!-- /.project-img -->
         </div> <!-- /.col-md-8 -->
         <div class="col-md-4">
@@ -35,7 +35,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-offset-2 col-md-8">
-                <p class="larger-text">Interested about us? Go ahead and talk with us on the <a href="contact.html">contact page</a>.</br> Or <strong><a href="QR.html">SCAN </a></strong> QR code to learn more about us. </p>
+                <p class="larger-text">Interested about us? Go ahead and talk with us on the <a href="/about/contact">contact page</a>.</br> Or <strong><a href="QR.html">SCAN </a></strong> QR code to learn more about us. </p>
             </div> <!-- /.col-md-8 -->
         </div> <!-- /.row -->
     </div> <!-- /.container -->
