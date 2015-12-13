@@ -1,3 +1,4 @@
 README-lazyphp.md
 .idea/
 compiled/
+/config/database.php

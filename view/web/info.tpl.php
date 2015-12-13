@@ -1,34 +1,33 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
-  <head>
-    <!-- Required meta tags always come first -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title><?='系统提示 | ' . c('site_name');?></title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="http://libs.useso.com/js/bootstrap/3.2.0/css/bootstrap.min.css"/>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title><?=$data['title'] . ' | ' . c('site_name');?></title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="Jason Gu">
 
-    <link rel="stylesheet" href="http://libs.useso.com/js/font-awesome/4.2.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="/assets/css/stylish-portfolio.css"/>
-    
-    <link href="http://fonts.useso.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css"/>
+  <!-- Google Fonts -->
+  <link href="/assets/fonts/googlefont2" rel="stylesheet">
+  <link href="/assets/fonts/googlefont1" rel="stylesheet">
 
-	<link rel="stylesheet" type="text/css" href="/assets/css/app.css"/>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/assets/css/bootstrap.css">
+  <link rel="stylesheet" href="/assets/css/misc.css">
+  <link rel="stylesheet" href="/assets/css/blue-scheme.css">
+  <?php if( isset($data['css']) && is_array( $data['css'] ) ): ?>
+    <?php foreach( $data['css'] as $cfile ): ?><link rel="stylesheet" type="text/css" href="/assets/css/<?=$cfile?>"/>
+    <?php endforeach; ?>
+  <?php endif; ?>
 
-    <?php if( isset($css) && is_array( $css ) ): ?>
-        <?php foreach( $css as $cfile ): ?><link rel="stylesheet" type="text/css" href="/assets/css/<?=$cfile?>"/>
-        <?php endforeach; ?>
-	<?php endif; ?>
+  <!-- JavaScripts -->
+  <script src="/assets/js/jquery-1.10.2.min.js"></script>
+  <script src="/assets/js/jquery-migrate-1.2.1.min.js"></script>
 
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <link rel="shortcut icon" href="/assets/images/CAC.ico" type="image/x-icon" />
 
-  </head>
+</head>
   <body>
     <?php
 
