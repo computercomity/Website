@@ -49,10 +49,13 @@ class AboutController
      */
     public function team()
     {
+        $json = file_get_contents("data/members.json");
+        $json = json_decode($json, true);
         $data = array(
             'background' => 'aboutus/team.jpg',
             'title' => 'Our Team',
-            'location' => 'About Us / Our Team'
+            'location' => 'About Us / Our Team',
+            'team' => $json
         );
         return send_result( $data );
     }
