@@ -1,18 +1,3 @@
-<div class="first-widget parallax" id="portfolioId">
-    <div class="parallax-overlay">
-        <div class="container pageTitle">
-            <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <h2 class="page-title">About Us</h2>
-                </div> <!-- /.col-md-6 -->
-                <div class="col-md-6 col-sm-6 text-right">
-                    <span class="page-location">Home / About Us</span>
-                </div> <!-- /.col-md-6 -->
-            </div> <!-- /.row -->
-        </div> <!-- /.container -->
-    </div> <!-- /.parallax-overlay -->
-</div> <!-- /.pageTitle -->
-
 <div class="container">
     <div class="row project-single">
         <div class="col-md-8">

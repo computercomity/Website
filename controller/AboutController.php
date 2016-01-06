@@ -17,7 +17,11 @@ class AboutController
      */
     public function index()
     {
-        $data['title'] = $data['top_title'] = 'About Us';
+        $data = array(
+            'background' => 'aboutus/index.jpg',
+            'title' => 'About Us',
+            'location' => 'Home / About Us'
+        );
         return send_result( $data );
     }
 
@@ -29,7 +33,11 @@ class AboutController
      */
     public function history()
     {
-        $data['title'] = $data['top_title'] = 'History of C@C';
+        $data = array(
+            'background' => 'aboutus/history.jpg',
+            'title' => 'History of C@C',
+            'location' => 'About Us / History of C@C'
+        );
         return send_result( $data );
     }
 
@@ -41,7 +49,11 @@ class AboutController
      */
     public function team()
     {
-        $data['title'] = $data['top_title'] = 'Our Team';
+        $data = array(
+            'background' => 'aboutus/team.jpg',
+            'title' => 'Our Team',
+            'location' => 'About Us / Our Team'
+        );
         return send_result( $data );
     }
 
@@ -53,7 +65,11 @@ class AboutController
      */
     public function contact()
     {
-        $data['title'] = $data['top_title'] = 'Contact Us';
+        $data = array(
+            'background' => 'aboutus/contact.jpg',
+            'title' => 'Contact Us',
+            'location' => 'About Us / Contact Us'
+        );
         return send_result( $data );
     }
 

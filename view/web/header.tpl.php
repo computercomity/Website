@@ -50,7 +50,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="pull-left logo"><a href="/"> <img src="/assets/images/logo-head.png"
-                                                                                alt="Computer And Comity logo"> </a>
+                                                              alt="Computer And Comity logo"> </a>
                 </div>    <!-- /.logo -->
                 <div class="main-navigation pull-right">
                     <nav class="main-nav visible-md visible-lg">
@@ -110,3 +110,18 @@
         </div> <!-- /.row -->
     </div> <!-- /.container -->
 </header> <!-- /.site-header -->
+
+<div class="first-widget parallax" id="portfolio">
+    <div class="parallax-overlay">
+        <div class="container pageTitle">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <h2 class="page-title"><?=$data['title']?></h2>
+                </div> <!-- /.col-md-6 -->
+                <div class="col-md-6 col-sm-6 text-right">
+                    <span class="page-location"><?=$data['location']?></span>
+                </div> <!-- /.col-md-6 -->
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+    </div> <!-- /.parallax-overlay -->
+</div> <!-- /.pageTitle -->
