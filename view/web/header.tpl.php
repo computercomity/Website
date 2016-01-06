@@ -111,6 +111,7 @@
     </div> <!-- /.container -->
 </header> <!-- /.site-header -->
 
+<? if(!(g('c') == "cac")){?>
 <div class="first-widget parallax" id="portfolio">
     <div class="parallax-overlay">
         <div class="container pageTitle">
@@ -124,4 +125,4 @@
             </div> <!-- /.row -->
         </div> <!-- /.container -->
     </div> <!-- /.parallax-overlay -->
-</div> <!-- /.pageTitle -->
+</div> <!-- /.pageTitle --><?}?>
