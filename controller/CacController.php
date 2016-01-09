@@ -17,7 +17,11 @@ class CacController
      */
     public function index()
     {
-        $data['title'] = $data['top_title'] = 'Version 4.5';
+    	$data = array(
+            'background' => '',
+            'title' => 'Home',
+            'location' => 'Home'
+        );
         return send_result( $data );
     }
 
