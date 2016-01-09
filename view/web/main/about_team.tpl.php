@@ -18,27 +18,27 @@
     <div class="row">
         <div class="portfolio-holder" id="Grid">
             <!--mix后面是部门名称，动画用-->
-            <? foreach($data['team']['members'] as $member) { ?>
-            <div class="portfolio-post col-sm-6 col-md-3 mix <?=$member['catagory_id']?>">
+            <?php foreach($data['team']['members'] as $member) { ?>
+            <div class="portfolio-post col-sm-6 col-md-3 mix <?php=$member['catagory_id']?>">
                 <div class="thumb-post">
                     <div class="overlay">
                         <div class="overlay-inner">
                             <div class="portfolio-infos">
-                                <span class="meta-category"><?=$member['catagory']?></span>
-                                <h3 class="portfolio-title"><?=$member['name']?></h3>
+                                <span class="meta-category"><?php=$member['catagory']?></span>
+                                <h3 class="portfolio-title"><?php=$member['name']?></h3>
                             </div>
                             <div class="portfolio-expand">
-                                <a class="fancybox" href="images/team/<?=$member['image']?>" title="<?=$member['name']?>">
+                                <a class="fancybox" href="images/team/<?php=$member['image']?>" title="<?php=$member['name']?>">
                                     <i class="fa fa-expand"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <img src="images/team/<?=$member['image']?>" alt="<?=$member['name']?>">
+                    <img src="images/team/<?=$member['image']?>" alt="<?php=$member['name']?>">
                 </div>
             </div>
             <!-- /.col-md-3 -->
-            <?}?>
+            <?php}?>
         </div> <!-- /.portfolio-holder -->
     </div> <!-- /.row -->
 </div> <!-- /.container -->
