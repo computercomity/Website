@@ -19,8 +19,13 @@
         <div class="portfolio-holder" id="Grid">
             <!--mix后面是部门名称，动画用-->
 <<<<<<< HEAD
+<<<<<<< HEAD
             <?php foreach($data['team']['members'] as $member) { ?>
             <div class="portfolio-post col-sm-6 col-md-3 mix <?php=$member['catagory_id'];?>">
+=======
+            <? foreach($data['team']['members'] as $member) { ?>
+            <div class="portfolio-post col-sm-6 col-md-3 mix <?=$member['catagory_id']?>">
+>>>>>>> parent of ecc6082... disabled <? short code on team page
 =======
             <? foreach($data['team']['members'] as $member) { ?>
             <div class="portfolio-post col-sm-6 col-md-3 mix <?=$member['catagory_id']?>">
@@ -29,6 +34,7 @@
                     <div class="overlay">
                         <div class="overlay-inner">
                             <div class="portfolio-infos">
+<<<<<<< HEAD
 <<<<<<< HEAD
                                 <span class="meta-category"><?php=$member['catagory'];?></span>
                                 <h3 class="portfolio-title"><?php=$member['name'];?></h3>
@@ -42,13 +48,24 @@
                             <div class="portfolio-expand">
                                 <a class="fancybox" href="images/team/<?=$member['image']?>" title="<?=$member['name']?>">
 >>>>>>> parent of ecc6082... disabled <? short code on team page
+=======
+                                <span class="meta-category"><?=$member['catagory']?></span>
+                                <h3 class="portfolio-title"><?=$member['name']?></h3>
+                            </div>
+                            <div class="portfolio-expand">
+                                <a class="fancybox" href="images/team/<?=$member['image']?>" title="<?=$member['name']?>">
+>>>>>>> parent of ecc6082... disabled <? short code on team page
                                     <i class="fa fa-expand"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <img src="images/team/<?php=$member['image']?>" alt="<?php=$member['name']?>">
+=======
+                    <img src="images/team/<?=$member['image']?>" alt="<?=$member['name']?>">
+>>>>>>> parent of ecc6082... disabled <? short code on team page
 =======
                     <img src="images/team/<?=$member['image']?>" alt="<?=$member['name']?>">
 >>>>>>> parent of ecc6082... disabled <? short code on team page
