@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
             <?php foreach($data['team']['members'] as $member) { ?>
+<<<<<<< HEAD
             <div class="portfolio-post col-sm-6 col-md-3 mix <?php=$member['catagory_id'];?>">
 =======
             <? foreach($data['team']['members'] as $member) { ?>
@@ -30,10 +31,14 @@
             <? foreach($data['team']['members'] as $member) { ?>
             <div class="portfolio-post col-sm-6 col-md-3 mix <?=$member['catagory_id']?>">
 >>>>>>> parent of ecc6082... disabled <? short code on team page
+=======
+            <div class="portfolio-post col-sm-6 col-md-3 mix <?php=$member['catagory_id']?>">
+>>>>>>> parent of 98cfa4a... disable
                 <div class="thumb-post">
                     <div class="overlay">
                         <div class="overlay-inner">
                             <div class="portfolio-infos">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                                 <span class="meta-category"><?php=$member['catagory'];?></span>
@@ -55,11 +60,19 @@
                             <div class="portfolio-expand">
                                 <a class="fancybox" href="images/team/<?=$member['image']?>" title="<?=$member['name']?>">
 >>>>>>> parent of ecc6082... disabled <? short code on team page
+=======
+                                <span class="meta-category"><?php=$member['catagory']?></span>
+                                <h3 class="portfolio-title"><?php=$member['name']?></h3>
+                            </div>
+                            <div class="portfolio-expand">
+                                <a class="fancybox" href="images/team/<?php=$member['image']?>" title="<?php=$member['name']?>">
+>>>>>>> parent of 98cfa4a... disable
                                     <i class="fa fa-expand"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                     <img src="images/team/<?php=$member['image']?>" alt="<?php=$member['name']?>">
@@ -69,6 +82,9 @@
 =======
                     <img src="images/team/<?=$member['image']?>" alt="<?=$member['name']?>">
 >>>>>>> parent of ecc6082... disabled <? short code on team page
+=======
+                    <img src="images/team/<?=$member['image']?>" alt="<?php=$member['name']?>">
+>>>>>>> parent of 98cfa4a... disable
                 </div>
             </div>
             <!-- /.col-md-3 -->
