@@ -1,476 +1,170 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="php-apidoc - apid documenation generator">
-    <meta name="author" content="Calin Rada">
-    <title>php-apidoc v 1.3.4</title>
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-    <style type="text/css">
-        body      { padding-top: 70px; margin-bottom: 15px; }
-        .tab-pane { padding-top: 10px; }
-        .mt0      { margin-top: 0px; }
-        .footer   { font-size: 12px; color: #666; }
-        .label    { display: inline-block; min-width: 65px; padding: 0.3em 0.6em 0.3em; }
-        .string   { color: green; }
-        .number   { color: darkorange; }
-        .boolean  { color: blue; }
-        .null     { color: magenta; }
-        .key      { color: red; }
-        .popover  { max-width: 400px; max-height: 400px; overflow-y: auto;}
-        code     { white-space: pre-wrap!important;padding:5px!important; }
-    </style>
-</head>
-<body>
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">php-apidoc</a>
-        </div>
-        <div class="navbar-collapse collapse">
-            <form class="navbar-form navbar-right">
-                <div class="form-group">
-                    Api key: <a href="javascript:void(0);" class="tooltipP" data-toggle="tooltip" title="Api key header with api key (key) and api key value (value) "><span class="glyphicon glyphicon-info-sign"></span></a>
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control input-sm" placeholder="key" id="apikey_key">
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control input-sm" placeholder="value" id="apikey_value">
-                </div>
-            </form>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h5>Api URL</h5>
-                <input id="apiUrl" type="text" class="form-control input-sm" placeholder="http://api.mydomain.tld">
-            </div>
-        </div>
-        <hr>
-        <div class="panel-group" id="accordion">
-            <h2>Demo</h2>
-
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h4 class="panel-title">
-            <span class="label label-success">GET</span> <a data-toggle="collapse" data-parent="#accordion0" href="#collapseOne0"> /about/</a>
-        </h4>
-    </div>
-    <div id="collapseOne0" class="panel-collapse collapse">
-        <div class="panel-body">
-
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs" id="php-apidoctab0">
-                <li class="active"><a href="#info0" data-toggle="tab">Info</a></li>
-                <li><a href="#sandbox0" data-toggle="tab">Sandbox</a></li>
-                <li><a href="#sample0" data-toggle="tab">Sample output</a></li>
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-
-                <div class="tab-pane active" id="info0">
-                    默认提示
-                    <hr>
-                    
-                </div><!-- #info -->
-
-                <div class="tab-pane" id="sandbox0">
-                    <div class="row">
-                        <div class="col-md-4">
-                            Parameters
-                            <hr>
-                            
-                        </div>
-                        <div class="col-md-4">
-                            Headers
-                            <hr>Soon...
-                        </div>
-                        <div class="col-md-4">
-                            Response
-                            <hr>
-                            <code id="response0"></code>
-                        </div>
-                    </div>
-                </div><!-- #sandbox -->
-
-                <div class="tab-pane" id="sample0">
-                    <div class="row">
-                        <div class="col-md-12">
-                            
-
-<hr>
-<pre id="sample_response0">{'code': 0,'message': 'success'}</pre>
-                        </div>
-                    </div>
-                </div><!-- #sample -->
-
-            </div><!-- .tab-content -->
-        </div>
-    </div>
-</div>
-
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h4 class="panel-title">
-            <span class="label label-success">GET</span> <a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1"> /about/history</a>
-        </h4>
-    </div>
-    <div id="collapseOne1" class="panel-collapse collapse">
-        <div class="panel-body">
-
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs" id="php-apidoctab1">
-                <li class="active"><a href="#info1" data-toggle="tab">Info</a></li>
-                <li><a href="#sandbox1" data-toggle="tab">Sandbox</a></li>
-                <li><a href="#sample1" data-toggle="tab">Sample output</a></li>
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-
-                <div class="tab-pane active" id="info1">
-                    默认提示
-                    <hr>
-                    
-                </div><!-- #info -->
-
-                <div class="tab-pane" id="sandbox1">
-                    <div class="row">
-                        <div class="col-md-4">
-                            Parameters
-                            <hr>
-                            
-                        </div>
-                        <div class="col-md-4">
-                            Headers
-                            <hr>Soon...
-                        </div>
-                        <div class="col-md-4">
-                            Response
-                            <hr>
-                            <code id="response1"></code>
-                        </div>
-                    </div>
-                </div><!-- #sandbox -->
-
-                <div class="tab-pane" id="sample1">
-                    <div class="row">
-                        <div class="col-md-12">
-                            
-
-<hr>
-<pre id="sample_response1">{'code': 0,'message': 'success'}</pre>
-                        </div>
-                    </div>
-                </div><!-- #sample -->
-
-            </div><!-- .tab-content -->
-        </div>
-    </div>
-</div>
-
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h4 class="panel-title">
-            <span class="label label-success">GET</span> <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2"> /about/team</a>
-        </h4>
-    </div>
-    <div id="collapseOne2" class="panel-collapse collapse">
-        <div class="panel-body">
-
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs" id="php-apidoctab2">
-                <li class="active"><a href="#info2" data-toggle="tab">Info</a></li>
-                <li><a href="#sandbox2" data-toggle="tab">Sandbox</a></li>
-                <li><a href="#sample2" data-toggle="tab">Sample output</a></li>
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-
-                <div class="tab-pane active" id="info2">
-                    默认提示
-                    <hr>
-                    
-                </div><!-- #info -->
-
-                <div class="tab-pane" id="sandbox2">
-                    <div class="row">
-                        <div class="col-md-4">
-                            Parameters
-                            <hr>
-                            
-                        </div>
-                        <div class="col-md-4">
-                            Headers
-                            <hr>Soon...
-                        </div>
-                        <div class="col-md-4">
-                            Response
-                            <hr>
-                            <code id="response2"></code>
-                        </div>
-                    </div>
-                </div><!-- #sandbox -->
-
-                <div class="tab-pane" id="sample2">
-                    <div class="row">
-                        <div class="col-md-12">
-                            
-
-<hr>
-<pre id="sample_response2">{'code': 0,'message': 'success'}</pre>
-                        </div>
-                    </div>
-                </div><!-- #sample -->
-
-            </div><!-- .tab-content -->
-        </div>
-    </div>
-</div>
-
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h4 class="panel-title">
-            <span class="label label-success">GET</span> <a data-toggle="collapse" data-parent="#accordion3" href="#collapseOne3"> /about/contact</a>
-        </h4>
-    </div>
-    <div id="collapseOne3" class="panel-collapse collapse">
-        <div class="panel-body">
-
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs" id="php-apidoctab3">
-                <li class="active"><a href="#info3" data-toggle="tab">Info</a></li>
-                <li><a href="#sandbox3" data-toggle="tab">Sandbox</a></li>
-                <li><a href="#sample3" data-toggle="tab">Sample output</a></li>
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-
-                <div class="tab-pane active" id="info3">
-                    默认提示
-                    <hr>
-                    
-                </div><!-- #info -->
-
-                <div class="tab-pane" id="sandbox3">
-                    <div class="row">
-                        <div class="col-md-4">
-                            Parameters
-                            <hr>
-                            
-                        </div>
-                        <div class="col-md-4">
-                            Headers
-                            <hr>Soon...
-                        </div>
-                        <div class="col-md-4">
-                            Response
-                            <hr>
-                            <code id="response3"></code>
-                        </div>
-                    </div>
-                </div><!-- #sandbox -->
-
-                <div class="tab-pane" id="sample3">
-                    <div class="row">
-                        <div class="col-md-12">
-                            
-
-<hr>
-<pre id="sample_response3">{'code': 0,'message': 'success'}</pre>
-                        </div>
-                    </div>
-                </div><!-- #sample -->
-
-            </div><!-- .tab-content -->
-        </div>
-    </div>
-</div>
-
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h4 class="panel-title">
-            <span class="label label-success">GET</span> <a data-toggle="collapse" data-parent="#accordion4" href="#collapseOne4"> /</a>
-        </h4>
-    </div>
-    <div id="collapseOne4" class="panel-collapse collapse">
-        <div class="panel-body">
-
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs" id="php-apidoctab4">
-                <li class="active"><a href="#info4" data-toggle="tab">Info</a></li>
-                <li><a href="#sandbox4" data-toggle="tab">Sandbox</a></li>
-                <li><a href="#sample4" data-toggle="tab">Sample output</a></li>
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-
-                <div class="tab-pane active" id="info4">
-                    默认提示
-                    <hr>
-                    
-                </div><!-- #info -->
-
-                <div class="tab-pane" id="sandbox4">
-                    <div class="row">
-                        <div class="col-md-4">
-                            Parameters
-                            <hr>
-                            
-                        </div>
-                        <div class="col-md-4">
-                            Headers
-                            <hr>Soon...
-                        </div>
-                        <div class="col-md-4">
-                            Response
-                            <hr>
-                            <code id="response4"></code>
-                        </div>
-                    </div>
-                </div><!-- #sandbox -->
-
-                <div class="tab-pane" id="sample4">
-                    <div class="row">
-                        <div class="col-md-12">
-                            
-
-<hr>
-<pre id="sample_response4">{'code': 0,'message': 'success'}</pre>
-                        </div>
-                    </div>
-                </div><!-- #sample -->
-
-            </div><!-- .tab-content -->
-        </div>
-    </div>
-</div>
-
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h4 class="panel-title">
-            <span class="label label-success">GET</span> <a data-toggle="collapse" data-parent="#accordion5" href="#collapseOne5"> /info</a>
-        </h4>
-    </div>
-    <div id="collapseOne5" class="panel-collapse collapse">
-        <div class="panel-body">
-
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs" id="php-apidoctab5">
-                <li class="active"><a href="#info5" data-toggle="tab">Info</a></li>
-                <li><a href="#sandbox5" data-toggle="tab">Sandbox</a></li>
-                <li><a href="#sample5" data-toggle="tab">Sample output</a></li>
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-
-                <div class="tab-pane active" id="info5">
-                    系统提示
-                    <hr>
-                    
-                </div><!-- #info -->
-
-                <div class="tab-pane" id="sandbox5">
-                    <div class="row">
-                        <div class="col-md-4">
-                            Parameters
-                            <hr>
-                            
-                        </div>
-                        <div class="col-md-4">
-                            Headers
-                            <hr>Soon...
-                        </div>
-                        <div class="col-md-4">
-                            Response
-                            <hr>
-                            <code id="response5"></code>
-                        </div>
-                    </div>
-                </div><!-- #sandbox -->
-
-                <div class="tab-pane" id="sample5">
-                    <div class="row">
-                        <div class="col-md-12">
-                            
-
-<hr>
-<pre id="sample_response5">{'code': 0,'message': 'success'}</pre>
-                        </div>
-                    </div>
-                </div><!-- #sample -->
-
-            </div><!-- .tab-content -->
-        </div>
-    </div>
-</div>
-
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h4 class="panel-title">
-            <span class="label label-success">GET</span> <a data-toggle="collapse" data-parent="#accordion6" href="#collapseOne6"> /demo/times</a>
-        </h4>
-    </div>
-    <div id="collapseOne6" class="panel-collapse collapse">
-        <div class="panel-body">
-
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs" id="php-apidoctab6">
-                <li class="active"><a href="#info6" data-toggle="tab">Info</a></li>
-                <li><a href="#sandbox6" data-toggle="tab">Sandbox</a></li>
-                <li><a href="#sample6" data-toggle="tab">Sample output</a></li>
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-
-                <div class="tab-pane active" id="info6">
-                    乘法接口
-                    <hr>
-                    
-<table class="table table-hover">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Type</th>
-            <th>Required</th>
-            <th>Description</th>
-        </tr>
-    </thead>
+<table width="100%">
     <tbody>
-        
-<tr>
-    <td>first</td>
-    <td>string</td>
-    <td>Yes</td>
-    <td>first</td>
-</tr>
-
-<tr>
-    <td>second</td>
-    <td>string</td>
-    <td>Yes</td>
-    <td>second</td>
-</tr>
+    <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+    </tr>
+    <tr>
+        <td rowspan="1"><span class="">8:30AM</span></td>
+        <td rowspan="3"><span class="SSSTEXTWEEKLY">MAT 1002 - LA<br>Lecture<br>8:30AM - 11:20AM<br>Zhi Xin Building 110</span>
+        </td>
+        <td>&nbsp;</td>
+        <td rowspan="3"><span class="SSSTEXTWEEKLY">CSC 1001 - LB<br>Lecture<br>8:30AM - 11:20AM<br>Cheng Dao Building 101</span>
+        </td>
+        <td rowspan="1"><span class="SSSTEXTWEEKLY">CSC 1002 - L7<br>Lecture<br>8:30AM - 9:20AM<br>Cheng Dao Building 201</span>
+        </td>
+        <td rowspan="3"><span class="SSSTEXTWEEKLY">STA 2001 - LB<br>Lecture<br>8:30AM - 11:20AM<br>Cheng Dao Building 102</span>
+        </td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td rowspan="1"><span class="">9:30AM</span></td>
+        <td>&nbsp;</td>
+        <td rowspan="1"><span class="SSSTEXTWEEKLY">CSC 1001 - T5<br>Tutorial<br>9:30AM - 10:20AM<br>Cheng Dao Building 202</span>
+        </td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td rowspan="1"><span class="">10:30AM</span></td>
+        <td rowspan="2"><span
+                class="SSSTEXTWEEKLY">PED 1002 - LC5<br>Lecture<br>10:30AM - 12:20PM<br>Location: TBA</span>
+        </td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td rowspan="1"><span class="">11:30AM</span></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td rowspan="1"><span class="">12:30PM</span></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td rowspan="1"><span class="">1:30PM</span></td>
+        <td>&nbsp;</td>
+        <td rowspan="1"><span class="SSSTEXTWEEKLY">STA 2001 - TB02<br>Tutorial<br>1:30PM - 2:20PM<br>Zhi Xin Building 201B</span>
+        </td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td rowspan="1"><span class="">2:30PM</span></td>
+        <td rowspan="2"><span class="SSSTEXTWEEKLY">GFN 1000 - T9<br>Tutorial<br>2:30PM - 4:20PM<br>Zhi Xin Building 203A</span>
+        </td>
+        <td rowspan="2"><span class="SSSTEXTWEEKLY">ENG 1002 - LE4<br>Lecture<br>2:30PM - 4:00PM<br>Zhi Xin Building 303</span>
+        </td>
+        <td rowspan="2"><span class="SSSTEXTWEEKLY">ENG 1002 - LE4<br>Lecture<br>2:30PM - 4:00PM<br>Zhi Xin Building 303</span>
+        </td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td rowspan="1"><span class="">3:30PM</span></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td rowspan="1"><span class="">4:30PM</span></td>
+        <td>&nbsp;</td>
+        <td rowspan="2"><span class="SSSTEXTWEEKLY">CSC 1002 - T2<br>Tutorial<br>4:30PM - 6:20PM<br>Cheng Dao Building 201</span>
+        </td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td rowspan="1"><span class="">5:30PM</span></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td rowspan="1"><span class="">6:30PM</span></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td rowspan="1"><span class="">7:30PM</span></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td rowspan="1"><span class="SSSTEXTWEEKLY">GFN 1000 - LB<br>Lecture<br>7:30PM - 8:20PM<br>Zhi Xin Building 109</span>
+        </td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td rowspan="1"><span class="">8:30PM</span></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td rowspan="1"><span class="SSSTEXTWEEKLY">MAT 1002 - TA02<br>Tutorial<br>8:30PM - 9:20PM<br>Zhi Xin Building 335</span>
+        </td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td rowspan="1"><span class="">9:30PM</span></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td rowspan="1"><span class="">10:00PM</span></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
     </tbody>
+<<<<<<< HEAD
 </table>
                 </div><!-- #info -->
 
@@ -637,3 +331,6 @@
     </script>
 </body>
 </html>
+=======
+</table>
+>>>>>>> 968c6ae72941591bf94a3ca43e905928a73a92db
